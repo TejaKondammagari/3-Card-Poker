@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ThreeCardTest" time="0.129" tests="30" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\rpgen\Documents\CS342\ThreeCardPoker_Project2_Sp2020\target\test-classes;C:\Users\rpgen\Documents\CS342\ThreeCardPoker_Project2_Sp2020\target\classes;C:\Users\rpgen\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\rpgen\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\rpgen\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\rpgen\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\rpgen\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\rpgen\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\rpgen\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-controls\12.0.1\javafx-controls-12.0.1.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-controls\12.0.1\javafx-controls-12.0.1-win.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-graphics\12.0.1\javafx-graphics-12.0.1.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-graphics\12.0.1\javafx-graphics-12.0.1-win.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-base\12.0.1\javafx-base-12.0.1.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-base\12.0.1\javafx-base-12.0.1-win.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-fxml\12\javafx-fxml-12.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-fxml\12\javafx-fxml-12-win.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\rpgen\AppData\Local\Temp\surefire7809480228260398023\surefirebooter3678829906642504692.jar C:\Users\rpgen\AppData\Local\Temp\surefire7809480228260398023 2020-03-08T22-08-13_426-jvmRun1 surefire6329481917267826119tmp surefire_07718549239666878318tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\rpgen\Documents\CS342\ThreeCardPoker_Project2_Sp2020\target\test-classes;C:\Users\rpgen\Documents\CS342\ThreeCardPoker_Project2_Sp2020\target\classes;C:\Users\rpgen\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\rpgen\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\rpgen\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\rpgen\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\rpgen\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\rpgen\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\rpgen\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-controls\12.0.1\javafx-controls-12.0.1.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-controls\12.0.1\javafx-controls-12.0.1-win.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-graphics\12.0.1\javafx-graphics-12.0.1.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-graphics\12.0.1\javafx-graphics-12.0.1-win.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-base\12.0.1\javafx-base-12.0.1.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-base\12.0.1\javafx-base-12.0.1-win.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-fxml\12\javafx-fxml-12.jar;C:\Users\rpgen\.m2\repository\org\openjfx\javafx-fxml\12\javafx-fxml-12-win.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rpgen"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="basedir" value="C:\Users\rpgen\Documents\CS342\ThreeCardPoker_Project2_Sp2020"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\rpgen\AppData\Local\Temp\surefire7809480228260398023\surefirebooter3678829906642504692.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="rpgen"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\rpgen\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\rpgen\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="C:\Users\rpgen\Documents\CS342\ThreeCardPoker_Project2_Sp2020"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\PharosSystems\Core;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\MinGW\bin;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\rpgen\AppData\Local\Microsoft\WindowsApps;C:\Users\rpgen\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rpgen\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="straightHandTest" classname="ThreeCardTest" time="0.02"/>
+  <testcase name="dealerGets3Cards" classname="ThreeCardTest" time="0.012"/>
+  <testcase name="n_pairHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="evalPP_straightFlushHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="evalPP_pairHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="playerWinningsIncrement" classname="ThreeCardTest" time="0"/>
+  <testcase name="n_straightFlushHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="playerGets3Cards" classname="ThreeCardTest" time="0.02"/>
+  <testcase name="dealerGetsNewHand" classname="ThreeCardTest" time="0.016"/>
+  <testcase name="n_flushHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="n_threeOfAKindHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="straightFlushHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="n_evalPP_flushHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="n_straightHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="evalPP_straightHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="pairHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="n_evalPP_pairHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="playerWinningsDecrement" classname="ThreeCardTest" time="0"/>
+  <testcase name="testDealerInit" classname="ThreeCardTest" time="0"/>
+  <testcase name="evalPP_threeOfAKindHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="n_evalPP_straightHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="n_evalPP_straightFlushHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="n_evalPP_threeOfAKindHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="dealerAndPlayerHaveDifferentThirdCard" classname="ThreeCardTest" time="0.016"/>
+  <testcase name="flushHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="testPlayerInit" classname="ThreeCardTest" time="0"/>
+  <testcase name="threeOfAKindHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="evalPP_flushHandTest" classname="ThreeCardTest" time="0"/>
+  <testcase name="dealerAndPlayerHaveDifferentSecondCard" classname="ThreeCardTest" time="0.012"/>
+  <testcase name="dealerAndPlayerHaveDifferentFirstCard" classname="ThreeCardTest" time="0.016"/>
+</testsuite>
